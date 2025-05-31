@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Golos UI', sans-serif;
+    background: #FFFFFF;
+    position: relative;
+    width: 1440px;
+    height: 1080px;
+    overflow: hidden;
+}
+.left-block {
+    position: absolute;
+    width: 462px;
+    height: 501px;
+    left: 269px;
+    top: 300px;
+}
+.title {
+    position: absolute;
+    width: 385px;
+    height: 180px;
+    font-family: 'Golos UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 180px;
+    color: #222222;
+    margin: 0;
+}
+.photo {
+    position: absolute;
+    width: 462px;
+    height: 637px;
+    background-image: url('log.png');
+    background-repeat: no-repeat;
+}
+.login-form {
+    position: absolute;
+    width: 343px;
+    height: 251px;
+    left: 838px;
+    top: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.form-fields {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 343px;
+    height: 171px;
+}
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    width: 343px;
+}
+.email-field {
+    height: 88px;
+}
+.password-field {
+    height: 67px;
+}
+label {
+    width: 100%;
+    height: 18px;
+    font-family: 'Golos UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: #222222;
+}
+.input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 12px;
+    width: 343px;
+    height: 44px;
+    background: #F2F3F5;
+    border-radius: 10px;
+}
+.password-container {
+    padding: 10px 12px;
+}
+input {
+    margin: 0 auto;
+    width: 100%;
+    height: 18px;
+    font-family: 'Golos UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #222222;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.description {
+    width: 100%;
+    height: 16px;
+    font-family: 'Golos UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #808080;
+}
+.password-description {
+    display: none;
+    color: #909090;
+}
+.submit-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    width: 343px;
+    height: 48px;
+    background: #222222;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.button-text {
+    font-family: 'Golos UI';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}

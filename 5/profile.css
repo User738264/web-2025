@@ -1,0 +1,260 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Golos UI', sans-serif;
+    background: #FFFFFF;
+    position: relative;
+    width: 1440px;
+    height: 1080px;
+}
+.sidebar {
+    box-sizing: border-box;
+    position: fixed;
+    width: 72px;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background: #FFFFFF;
+    border-right: 1px solid rgba(34, 34, 34, 0.05);
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+.menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 24px;
+    border-radius: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.home {
+    top: 40px;
+}
+.user {
+    top: 96px;
+    isolation: isolate;
+}
+.plus {
+    top: 152px;
+}
+.user-avatar {
+    position: absolute;
+    width: 123px;
+    height: 123px;
+    left: 658.5px;
+    top: 97px;
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+.avatar-img {
+    position: absolute;
+    width: 123px;
+    height: 123px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+    background-image: url('vanya_profile.jpg');
+    background-size: cover;
+}
+.title {
+    position: absolute;
+    width: 361px;
+    height: 32px;
+    left: 620px;
+    top: 220px;
+    font-family: 'Golos UI';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.245px;
+    color: #222222;
+}
+.subtitle {
+    position: absolute;
+    width: 361px;
+    height: 36px;
+    left: calc(50% - 361px/2 + 0px);
+    top: 282px;
+    font-family: 'Golos UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.15px;
+    color: #222222;
+}
+.gallery-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px 10px;
+    gap: 6px;
+    position: absolute;
+    width: 101px;
+    height: 30px;
+    left: 669.5px;
+    top: 330px;
+    background: #F2F3F5;
+    border-radius: 6px;
+}
+.gallery-icon {
+    width: 16px;
+    height: 16px;
+    position: relative;
+}
+.gallery-text {
+    width: 59px;
+    height: 18px;
+    font-family: 'Golos UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.15px;
+    color: #222222;
+}
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start;
+    padding: 0px;
+    gap: 2.48px;
+    position: absolute;
+    width: 972px;
+    height: 1621.65px;
+    left: calc(50% - 972px/2);
+    top: 402px;
+}
+.photo-item {
+    width: 322.35px;
+    height: 322.35px;
+    background: #B4B4B4;
+    border-radius: 2px;
+    position: relative;
+    overflow: hidden;
+}
+.photo-img {
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+}
+.photo1 .photo-img {
+    width: 447.41px;
+    height: 596.54px;
+    left: -61.83px;
+    top: -155.82px;
+    background-image: url('1.jpg');
+}
+.photo2 .photo-img {
+    width: 427.88px;
+    height: 570.5px;
+    left: -0.83px;
+    top: -165.71px;
+    background-image: url('2.jpg');
+}
+.photo3 .photo-img {
+    width: 373.47px;
+    height: 497.95px;
+    left: -21.44px;
+    top: -87.85px;
+    background-image: url('3.jpg');
+}
+.photo4 .photo-img {
+    width: 321.53px;
+    height: 321.53px;
+    left: 0px;
+    top: 0.42px;
+    background-image: url('4.jpg');
+}
+.photo5 .photo-img {
+    width: 324px;
+    height: 432px;
+    left: -0.83px;
+    top: -55.41px;
+    background-image: url('5.jpg');
+}
+.photo6 .photo-img {
+    width: 321.53px;
+    height: 428.7px;
+    left: 0.82px;
+    top: -15.67px;
+    background-image: url('6.jpg');
+}
+.photo7 .photo-img {
+    width: 434.61px;
+    height: 579.48px;
+    left: -63.62px;
+    top: -129.15px;
+    background-image: url('7.jpg');
+}
+.photo8 .photo-img {
+    width: 324px;
+    height: 432px;
+    left: -0.83px;
+    top: -53.59px;
+    background-image: url('8.jpg');
+}
+.photo9 .photo-img {
+    width: 321.53px;
+    height: 428.7px;
+    left: 0.82px;
+    top: -11.54px;
+    background-image: url('9.jpg');
+}
+.photo10 .photo-img {
+    width: 440.42px;
+    height: 587.22px;
+    left: -101.4px;
+    top: -133.56px;
+    background-image: url('');
+}
+.photo11 .photo-img {
+    width: 393.25px;
+    height: 524.34px;
+    left: -32.98px;
+    top: -101.4px;
+    background-image: url('');
+}
+.photo12 .photo-img {
+    width: 341.31px;
+    height: 455.08px;
+    left: -18.97px;
+    top: -65.59px;
+    background-image: url('');
+}
+.photo13 .photo-img {
+    width: 321.53px;
+    height: 428.7px;
+    left: 0px;
+    top: -53.19px;
+    background-image: url('');
+}
+.photo14 .photo-img {
+    width: 324px;
+    height: 432px;
+    left: -0.83px;
+    top: -28.04px;
+    background-image: url('');
+}
+.photo15 .photo-img {
+    width: 390.78px;
+    height: 521.04px;
+    left: -14.02px;
+    top: -139.34px;
+    background-image: url('');
+}
